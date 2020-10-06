@@ -62,5 +62,5 @@ nodejs_test(
         "//packages/router:npm_package",
     ] + glob(["**/*"]),
     entry_point = "test.js",
-    tags = ["no-ivy-aot"],
+    tags = ["no-ivy-aot", "exclusive"],
 )
